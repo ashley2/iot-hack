@@ -1,8 +1,8 @@
 .grid {
   border: 1px solid grey;
   min-height: 100px;
-  height: 100px;
-  background-color: lighten(black, 12);
+  // height: 100px;
+  // background-color: lighten(black, 12);
 }
 
 #title-container {
@@ -16,4 +16,25 @@
     font-size: 44px;
     text-align: center;
   }
+}
+
+.video {
+  height: 300px;
+  width: 400px;
+  background-color: gray;
+  margin: 0 auto;
+
+}
+
+.flip-clock-wrapper ul {
+  width: 42px;
+  font-size: 10px;
+}
+
+.flip:nth-last-of-type(3), .flip:nth-last-of-type(2){
+  display: none;
+}
+
+.flip-clock-divider:nth-of-type(2){
+  display: none;
 }

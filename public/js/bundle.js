@@ -16,7 +16,16 @@ var app = angular.module('gardenApp', ['ui.router']).config(["$stateProvider", "
 }]);
 'use strict';
 
-angular.module('gardenApp').controller('dashCtrl', ["$scope", function ($scope) {}]);
+angular.module('gardenApp').controller('dashCtrl', ["$scope", function ($scope) {
+
+  angular.element(document).ready(function () {
+
+    var clock = $('.your-clock').FlipClock({
+      clockFace: 'TwelveHourClock'
+
+    });
+  });
+}]);
 'use strict';
 
 angular.module('gardenApp').controller('splashCtrl', ["$scope", function ($scope) {}]);
