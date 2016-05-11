@@ -14,3 +14,9 @@ var app = angular.module('gardenApp', ['ui.router']).config(["$stateProvider", "
     controller: "dashCtrl"
   });
 }]);
+'use strict';
+
+angular.module('gardenApp').controller('dashCtrl', ["$scope", function ($scope) {}]);
+'use strict';
+
+angular.module('gardenApp').controller('splashCtrl', ["$scope", function ($scope) {}]);
