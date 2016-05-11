@@ -49,4 +49,4 @@ gulp.task('clean:js', function() {
   return gulp.src('public/js', {read:false})
   .pipe(plumber())
 
-  })
+})

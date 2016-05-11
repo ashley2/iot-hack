@@ -11,7 +11,9 @@ var app = angular.module('gardenApp', ['ui.router'])
     controller: "splashCtrl"
   })
   .state('dash', {
-    url: "/",
+    url: "/dash",
     templateUrl: "templates/dash.html",
     controller: "dashCtrl"
   })
+
+})
