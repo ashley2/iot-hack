@@ -38,3 +38,31 @@
 .flip-clock-divider:nth-of-type(2){
   display: none;
 }
+
+.litmus {
+  background-image: linear-gradient(
+    to right, red, orange, yellow, green, blue, indigo);
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+}
+.ph {
+  font-size: 5rem;
+  display: inline-block;
+  color: black;
+}
+
+
+.card {
+  background-color: ghostwhite;
+  color: $primary;
+  box-shadow: 5px 5px 10px darken(gray, 20%);
+  margin-bottom: 20px;
+  label {
+    padding-left: 5px;
+    display: block;
+    border-radius: 5px 0 0 0;
+    background-color: lighten($accent, 20%);
+    color: ghostwhite;
+  }
+}

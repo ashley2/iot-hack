@@ -13,12 +13,19 @@
   </div>
   <div class="grid col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1">
     <div class="card">
+      <label>Current Time</label>
       <div class="your-clock"></div>
+    </div>
+    <div class="card">
+      <label>pH Soil Level</label>
+      <div class="ph">{{garden.ph || 7 }}</div>
+      <div class="litmus"></div>
     </div>
   </div>  
   <div class="grid col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1"></div>
 </div>
 <div class="row">
+
   <div class="grid col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1"></div>
   <div class="grid col-md-6 col-md-offset-0 col-xs-10 col-xs-offset-1"></div>
   <div class="grid col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1"></div>
